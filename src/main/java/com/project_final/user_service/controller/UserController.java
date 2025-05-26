@@ -64,7 +64,7 @@ public class UserController {
         }
     }
 
-    // Eliminar usuario
+    // Eliminar usuario_
     @DeleteMapping("/{id}")
     public ResponseEntity<HttpStatus> deleteUser(@PathVariable Long id) {
         try {

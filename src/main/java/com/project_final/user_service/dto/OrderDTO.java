@@ -11,7 +11,7 @@ public class OrderDTO {
     private BigDecimal totalPrice;
     private LocalDateTime orderDate;
 
-    // Constructores
+    // Constructores_
     public OrderDTO() {}
 
     public OrderDTO(Long id, Long productId, Integer quantity, BigDecimal totalPrice, LocalDateTime orderDate) {
