@@ -35,7 +35,7 @@ public class User {
         this.email = email;
     }
 
-    // Getters y Setters_
+    // Getters y Setters
     public Long getId() {
         return id;
     }

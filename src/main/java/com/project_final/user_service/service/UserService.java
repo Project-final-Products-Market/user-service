@@ -45,7 +45,7 @@ public class UserService {
         return userRepository.findByEmail(email);
     }
 
-    // Actualizar usuario_
+    // Actualizar usuario
     public User updateUser(Long id, User userDetails) {
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Usuario no encontrado con id: " + id));
